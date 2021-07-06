@@ -2,10 +2,45 @@ body{
     margin:0;
     padding:0;
     font-family: 'Inter', sans-serif;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(231, 208, 208);
 }
+
+.topnav {
+    background-color:rgb(36, 35, 35);
+    overflow: hidden;
+    height: 80px;
+    
+  }
+  label.logo{
+      color: crimson;
+      font-size: 30px;
+      line-height: 80px;
+      padding:0 90px;
+      font-weight: bold;
+
+  }
+  
+
+  .topnav a {
+    float:right;
+    color: crimson;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(114, 13, 13);
+  }
+  
+  
+  
 span{
-    color: rgb(167, 32, 32);
+    color: crimson;
 }
 .first-part,.second-part,.last-part{
     display: flex;
@@ -15,7 +50,7 @@ span{
 
 h1,h3,h2{
     font-size: 40px;
-    color: rgb(43, 42, 42);
+    color: rgb(53, 52, 52);
 }
 .half-width{
   width: 50%;
@@ -31,7 +66,7 @@ h1,h3,h2{
     margin-bottom:30px;
 }
 .link-button{
-    background-image: linear-gradient(red,rgb(196, 15, 39));
+    background-image: linear-gradient(crimson,rgb(182, 21, 42));
     border-radius: 10px;
     padding: 10px 20px;
     width: 700px;
@@ -41,7 +76,7 @@ h1,h3,h2{
     
 }
 .second-part{
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(236, 229, 229);
 }
 .second-part img{
     width:50%;
@@ -52,12 +87,28 @@ h1,h3,h2{
 }
 .flexibility{
     width:33.33%;
-    margin:20px;
+    margin:30px;
     padding:15px;
-    box-shadow: 10px 10px 10px grey;   
+    box-shadow: 10px 10px 20px grey; 
+    border-image:linear-gradient(rgb(240, 194, 194),rgb(146, 52, 8));
+    border-left:3px solid;
+    border-image-slice: 3;
+    
 
 }
 .last-part img{ 
     width:90%;
     border-radius: 10px;
 }
+footer{
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top:70px;
+    color: rgb(83, 83, 83);
+}
+.flexibility:hover {
+    background-color: #ddd;
+    color: rgb(114, 13, 13);
+  }
